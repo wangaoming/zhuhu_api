@@ -15,7 +15,6 @@ import javax.annotation.Resource;
  * @create Date
  */
 @RestController
-
 @RequestMapping(value = "/api/roundTable")
 public class RoundTableController {
     @Resource

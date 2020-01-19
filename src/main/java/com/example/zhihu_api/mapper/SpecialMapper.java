@@ -7,6 +7,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author ASUS
+ */
 public interface SpecialMapper {
     @Insert("<script>"+
             "INSERT INTO t_special (special_id,title,introduction,banner,view_count,followers_count,updated) VALUES"+
@@ -21,7 +24,7 @@ public interface SpecialMapper {
      *
      * @return List<Special>
      */
-    @Select("SELECT * FRO t_special ORDER BY updated DESC LIMIT 0,4")
+    @Select("SELECT * FROM t_special ORDER BY updated DESC LIMIT 0,4")
     List<Special> selectRecent();
 
     /**
