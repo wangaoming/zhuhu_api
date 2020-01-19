@@ -19,6 +19,7 @@ class RoundTableMapperTest {
         roundTables.forEach(System.out::println);
     }
 
+
     @Test
     void selectAllRoundTable() {
         List<Map> roundTables = roundTableMapper.selectAllRoundTable();
