@@ -11,7 +11,7 @@ import java.util.Map;
 @SpringBootTest(classes = ZhihuApiApplication.class)
 class SpecialMapperTest {
     @Resource SpecialMapper specialMapper;
-    @Resource SectionMapper sectionMapper;
+//    @Resource SectionMapper sectionMapper;
 
     @Test
     void selectRecent() {

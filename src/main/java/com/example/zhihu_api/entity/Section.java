@@ -8,5 +8,5 @@ import lombok.Data;
 public class Section {
     private  String sectionId;
     private  String specialId;
-    private  String sectioTitle;
+    private  String sectionTitle;
 }
